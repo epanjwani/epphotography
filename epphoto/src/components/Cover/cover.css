@@ -1,0 +1,21 @@
+.textWrapper
+{
+    text-align: center;
+    width:100%;
+}
+.headBar{
+    display: inline-block;
+    width: 100%;
+    position: sticky;
+    overflow: hidden;
+}
+
+@font-face{
+    font-family: Aileron; 
+    src: url(../../fonts/Aileron-SemiBold.otf);
+}
+
+.headerText{
+    font-family: Aileron;
+    font-size: 30px;
+}

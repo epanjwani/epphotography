@@ -1,9 +1,16 @@
 import React from "react";
+import CoverImage from "../../images/IMG_8707.jpg";
+import "./cover.css"
 
 const cover = () => {
-    return(
+    return (
         <div className = "coverPhoto">
-            <img src = "../../images/IMG_8707.tif" alt="" width="500px"/>
+            <div className = "headBar">
+                <div className = "textWrapper">
+                    <p className = "headerText">Eashan Panjwani Photography</p>
+                </div>
+            </div>
+            <img src = {CoverImage} alt="" width = "100%"/>
         </div>
     );
 };
