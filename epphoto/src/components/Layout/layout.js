@@ -12,6 +12,26 @@ class Layout extends Component{
                 <p>Header/NavBar</p>
                 <p>Current Page</p>
                 <p>Footer</p>
+                <p>Footer</p>
+                <p>Footer</p>
+                <p>Footer</p>
+                <p>Footer</p>
+                <p>Footer</p>
+                <p>Footer</p>
+                <p>Footer</p>
+                <p>Footer</p>
+                <p>Footer</p>
+                <p>Footer</p>
+                <p>Footer</p>
+                <p>Footer</p>
+                <p>Footer</p>
+                <p>Footer</p>
+                <p>Footer</p>
+                <p>Footer</p>
+                <p>Footer</p>
+                <p>Footer</p>
+                <p>Footer</p>
+
             </div>
         );
     }
