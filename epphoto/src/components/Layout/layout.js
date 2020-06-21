@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import Cover from '../Cover/cover.js'
+import Cover from '../Cover/cover.js';
+import Page from '../Page/page.js';
 
 class Layout extends Component{
     state = {
@@ -9,29 +10,8 @@ class Layout extends Component{
         return(
             <div>
                 <Cover />
-                <p>Header/NavBar</p>
-                <p>Current Page</p>
+                <Page currentPage={this.state.page} />
                 <p>Footer</p>
-                <p>Footer</p>
-                <p>Footer</p>
-                <p>Footer</p>
-                <p>Footer</p>
-                <p>Footer</p>
-                <p>Footer</p>
-                <p>Footer</p>
-                <p>Footer</p>
-                <p>Footer</p>
-                <p>Footer</p>
-                <p>Footer</p>
-                <p>Footer</p>
-                <p>Footer</p>
-                <p>Footer</p>
-                <p>Footer</p>
-                <p>Footer</p>
-                <p>Footer</p>
-                <p>Footer</p>
-                <p>Footer</p>
-
             </div>
         );
     }
