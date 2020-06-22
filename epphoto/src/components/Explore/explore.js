@@ -11,7 +11,7 @@ let explore = (props) => {
     return(
         <div className = {props.classname}>
             <p>Explore {props.classname}</p>
-            <img src = {image} alt = "" width = "40%"/>
+            <img src = {image} alt = "" width = "100%"/>
         </div>
     );
 };

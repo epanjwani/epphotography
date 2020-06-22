@@ -1,0 +1,13 @@
+.landing
+{
+    width: 100%;
+}
+.Landscape{
+    width: 50%;
+    float:left;
+
+}
+.Cityscape{
+    width: 50%;
+    float:right;
+}

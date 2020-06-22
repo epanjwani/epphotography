@@ -1,8 +1,9 @@
 import React from 'react';
 import Explore from "../Explore/explore.js";
+import "./page.css"
 
 let page = (props) => {
-    let pageContent = null;;
+    let pageContent = null;
     if (props.currentPage == "landing")
     {
         pageContent = (

@@ -11,7 +11,6 @@ class Layout extends Component{
             <div>
                 <Cover />
                 <Page currentPage={this.state.page} />
-                <p>Footer</p>
             </div>
         );
     }
